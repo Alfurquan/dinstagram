@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+    
+    <title>dInstagram</title>
+    
+    <meta name="description" content="A client-side web application for downloading images and videos from Instagram.">
+    <meta name="keywords" content="download instagram videos, download instagram images">
+    <meta name="author" content="Alfarhan Zahedi">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>dInstagram</h1>
+            <input type="text" id="instagram-url" placeholder="paste the post url here!" onClick="this.setSelectionRange(0, this.value.length)"
+            />
+            <button id="instagram-url-button">get it</button>
+            <br/>
+            <div id="loader"></div>
+            <div id="links">
+
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
